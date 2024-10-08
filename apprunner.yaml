@@ -9,9 +9,6 @@ build:
       - python3 manage.py test
 run:
   runtime-version: 3.11
-  pre-run:
-    - pip3 install pipenv
-    - pipenv install
   # command: sh startup.sh
   command: pipenv run gunicorn --workers 2 dj_app_runner.wsgi --log-file -
   network:
