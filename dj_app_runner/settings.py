@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-nu-99)!amyi%*05%j(0i0c^^m=2j@v@9!spckev3p-=17qr*^s
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*.azurecontainerapps.io", "127.0.0.1", "django-app.lemonbeach-09428da8.centralus.azurecontainerapps.io"]
+ALLOWED_HOSTS = ["*.azurecontainerapps.io", "127.0.0.1", "*.azurecontainerapps.io"]
 
 
 # Application definition
